@@ -2,7 +2,7 @@ import { useUserStore } from '@/store/user.js';
 import axios from 'axios';
 
 export const backend = {
-    url: 'http://localhost:8080'
+    url: 'http://51.89.92.1:8080'
 }
 
 export function sendLoggedInRequest(path, data)
